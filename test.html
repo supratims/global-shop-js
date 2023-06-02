@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Acme Portal</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">Hello!</h1>
+          <p>This is my product portal</p>
+        </div>
+      </div> 
+    
+    <div class="container-fluid">
+        
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Step 1</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <p><a class="btn btn-secondary disabled" href="#" role="button">Continue &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Step 2</h2>
+                <div class="">
+                    <p>Fill the following information before proceeding to next step.</p>
+                    <div class="js-dynamic-div"></div>
+                    <p><a class="btn btn-primary" href="#" role="button">Save & Continue &raquo;</a></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h2>Step 3</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <p><a class="btn btn-secondary disabled" href="#" role="button">Finish &raquo;</a></p>
+              </div>
+        </div>
+    
+
+      </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+    <!-- Dynamic app content js starts here -->
+    <!-- Ideally served via a static web server -->
+
+    <!--
+        <script async src="https://ext.js?v=0.1"></script>
+    -->
+    <script async src="dest/js/product_form.js"></script>
+
+    <script type="text/javascript">
+        window.globalShopJs = window.globalShopJs || [];
+        globalShopJs['shop_code'] = 'shop-1';
+        globalShopJs['product_id'] = 'product-1';
+        globalShopJs['mount_id'] = '.js-dynamic-div'; // selector where dynamic html is passed
+    </script>
+
+  </body>
+</html>
+
+
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "global-shop-js",
+  "repository": "https://github.com/supratims/global-shop-js",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-changed": "^0.4.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-jsmin": "^0.1.4",
+    "gulp-preprocess": "~3.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-replace": "^0.4.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^4.14.1"
+  },
+  "author": "supratims",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp-terser": "^1.2.0"
+  }
+}
